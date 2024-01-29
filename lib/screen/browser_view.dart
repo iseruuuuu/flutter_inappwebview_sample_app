@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+// import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 
 class BrowserView extends StatelessWidget {
   const BrowserView({Key? key}) : super(key: key);
@@ -8,7 +8,7 @@ class BrowserView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: const InAppWebView(),
+      // body: const InAppWebView(),
     );
   }
 }
